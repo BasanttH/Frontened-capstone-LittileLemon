@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useState } from 'react';
 
-const BookingForm = () => {
+const App = () => {
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const [guests, setGuests] = useState('');
